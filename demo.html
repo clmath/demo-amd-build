@@ -1,0 +1,15 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script src="./bower_components/requirejs/require.js"></script>
+		<script type="text/javascript">
+			require(["requirejs-config-build"], function(){
+				require(["myapp/src"], function(src){
+					src.log();
+				});
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
